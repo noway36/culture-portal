@@ -8,12 +8,12 @@ class Photographers extends React.Component {
         return (
             <ul className="photographers-list">
                 <li className="photographer-link">
-                    <Link to="/photographers/photographer1/">
+                    <Link to="/photographers/anempodistov">
                         Анемподистов Михаил Владимирович
                     </Link>
                 </li>
                 <li className="photographer-link">
-                    <Link to="/photographers/photographer2/">
+                    <Link to="/photographers/parfenok">
                         Парфенок Владимир Петрович
                     </Link>
                 </li>

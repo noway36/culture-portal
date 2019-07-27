@@ -1,0 +1,8 @@
+.picture-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-picture {
+    width: 300px;
+}
