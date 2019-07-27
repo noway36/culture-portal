@@ -1,0 +1,33 @@
+.navigation-container {
+    margin-top: 30px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-link {
+    margin-right: 60px;
+}
+
+.navigation-link:last-child {
+    margin-right: 0px;
+}
+
+.navigation-link > a {
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    color: #000;
+}
+
+.navigation-link:hover a {
+    background: rgb(164, 164, 233);
+    color: #fff;
+}
+
+.navigation-link:active {
+    transform: translateY(1px);
+}

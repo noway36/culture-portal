@@ -1,0 +1,50 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body,
+html {
+    width: 100%;
+    font-size: 14px;
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    margin: 50px auto 0px auto;
+}
