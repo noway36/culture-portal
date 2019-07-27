@@ -1,10 +1,17 @@
 import React from 'react';
+import styles from './home-page-about.css';
+
 
 class HomePageAbout extends React.Component {
     render() {
         return (
             <>
-                <h2>Some Home-Page-Content</h2>
+                <div className='home-page-about'>
+                  {/* <Head />
+                  <Content />
+                  <DailyPhotographer /> */}
+                  This will be content
+                </div>
             </>
         );
     }
