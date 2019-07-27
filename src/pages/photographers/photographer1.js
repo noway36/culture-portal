@@ -8,16 +8,20 @@ class Photographer1Page extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = { name: 'Анемподистов Михаил Владимирович' };
+        this.state = {
+            name: 'Анемподистов Михаил Владимирович',
+            videoSrc: 'https://www.youtube.com/embed/nqFtaTVS_OI',
+        };
     }
 
     render() {
         const { name } = this.state;
+        const { videoSrc } = this.state;
 
         return (
             <Layout>
                 <SEO title="Photographer1" />
-                <PhotographerPresentational info={name} />
+                <PhotographerPresentational videoSrc={videoSrc} name={name} />
             </Layout>
         );
     }
