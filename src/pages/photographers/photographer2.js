@@ -8,7 +8,7 @@ class Photographer1Page extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = { name: 'Анемподистов Михаил Владимирович' };
+        this.state = { name: 'Парфенок Владимир Петрович' };
     }
 
     render() {

@@ -9,26 +9,26 @@ class Photographers extends React.Component {
             <ul className="photographers-list">
                 <li className="photographer-link">
                     <Link to="/photographers/photographer1/">
+                        Анемподистов Михаил Владимирович
+                    </Link>
+                </li>
+                <li className="photographer-link">
+                    <Link to="/photographers/photographer2/">
+                        Парфенок Владимир Петрович
+                    </Link>
+                </li>
+                <li className="photographer-link">
+                    <Link to="/photographers/photographer1/">
                         Иванов Иван Иванович
                     </Link>
                 </li>
                 <li className="photographer-link">
-                    <Link to="/photographers/photographer1">
+                    <Link to="/photographers/photographer1/">
                         Иванов Иван Иванович
                     </Link>
                 </li>
                 <li className="photographer-link">
-                    <Link to="/photographers/photographer1">
-                        Иванов Иван Иванович
-                    </Link>
-                </li>
-                <li className="photographer-link">
-                    <Link to="/photographers/photographer1">
-                        Иванов Иван Иванович
-                    </Link>
-                </li>
-                <li className="photographer-link">
-                    <Link to="/photographers/photographer1">
+                    <Link to="/photographers/photographer1/">
                         Иванов Иван Иванович
                     </Link>
                 </li>
