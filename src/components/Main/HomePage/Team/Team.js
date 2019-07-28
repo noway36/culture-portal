@@ -5,7 +5,7 @@ class Team extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            creators: [{alt: 'faryna'}]
+            creators: []
         };
     };
 
@@ -15,15 +15,14 @@ class Team extends React.Component {
                 name_eng: 'Dzmitri Faryna',
                 name_ru: 'Дмитрий Фарина',
                 name_by: 'Дзмiтрый Фарына',
-                src: './team_photos/ivanchikov.png',
+                src: 'team_images/ivanchikov.png',
                 alt: 'Faryna',
                 gitHub: 'https://github.com/esoshyki',
             },
             {
                 name_eng: 'Aleksandr Dren',
-                name_ru: 'Александр Дрен',
                 name_by: 'Аляксандр Дрэн',
-                src: './team_photos/ivanchikov.png',
+                src: 'team_images/ivanchikov.png',
                 alt: 'Dren',
                 gitHub: 'https://github.com/noway36'
             },
@@ -31,7 +30,7 @@ class Team extends React.Component {
                 name_eng: 'Ilya Ivanchikov',
                 name_ru: 'Илья Иванчиков',
                 name_by: 'Iлля Iванчыкоy',
-                src: './team_photos/ivanchikov.png',
+                src: 'team_images/ivanchikov.png',
                 alt: 'Ivanchikov',
                 gitHub: 'https://github.com/ilyaivanchikov'
             },
@@ -39,7 +38,7 @@ class Team extends React.Component {
                 name_eng: 'Stanislau Famin',
                 name_ru: 'Станислав Фомин',
                 name_by: 'Станiслау Фамин',
-                src: './team_photos/ivanchikov.png',
+                src: 'team_images/ivanchikov.png',
                 alt: 'Famin',
                 gitHub: 'https://github.com/slava-ff'
             },
@@ -47,7 +46,7 @@ class Team extends React.Component {
                 name_eng: 'Ihar Tsykala',
                 name_ru: 'Игорь Цыкало',
                 name_by: 'Игар Цыкала',
-                src: './team_photos/ivanchikov.png',
+                src: 'team_images/ivanchikov.png',
                 alt: 'Tsykala',
                 gitHub: 'https://github.com/ihartsykala'
             },
@@ -55,7 +54,7 @@ class Team extends React.Component {
                 name_eng: 'Mukhamed Talaspaev',
                 name_ru: 'Мухаммед Таласпаев',
                 name_by: 'Мухамед Таласпаеу',
-                src: './team_photos/ivanchikov.png',
+                src: 'team_images/ivanchikov.png',
                 alt: 'Talaspaev',
                 gitHub: 'https://github.com/talaspaev'
             },
