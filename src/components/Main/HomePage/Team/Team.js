@@ -6,7 +6,7 @@ class Team extends React.Component {
     render() {
         return (
             <>
-                <h2><Trans i18nKey='team_blocks'/></h2>
+                <h2><Trans>team blocks</Trans></h2>
             </>
         );
     }

@@ -28,7 +28,7 @@ i18n
         ns: ['translations'],
         defaultNS: 'translations',
 
-        // keySeparator: false, // we use content as keys
+        keySeparator: false, // we use content as keys
 
         interpolation: {
             escapeValue: false
