@@ -1,0 +1,18 @@
+.google-map-container {
+    position: relative;
+    width: 100vw;
+    height: 45vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.google-map {
+    height: 100%;
+    width: 30%;
+    border: 2px solid black;
+  }
+.google-life {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
