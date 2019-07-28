@@ -1,0 +1,36 @@
+.video-button {
+    margin-top: 60px;
+    background: #61b8ff;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 100px;
+    border-bottom: 3px solid #008cff;
+    border-radius: 10px;
+    user-select: none;
+    box-sizing: border-box;
+    transition: background 0.2s ease-out;
+}
+
+.video-button:hover {
+    background: #008cff;
+    cursor: pointer;
+}
+
+.video-button:active {
+    transform: translateY(1px);
+}
+
+.close-btn {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    font-size: 30px;
+    background: #666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #008cff;
+}
