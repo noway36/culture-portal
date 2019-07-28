@@ -1,0 +1,8 @@
+{
+    "Welcome to React": "string",
+    "hello_world_key": "string",
+    "title": {
+        "one": "string",
+        "two": "string"
+    }
+}
