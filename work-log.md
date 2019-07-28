@@ -35,3 +35,9 @@ ihartsykala
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
 |            |          |            |         |
+
+Slider7
+
+| Start time | End time | time spent | feature |
+| ---------- | -------- | ---------- | ------- |
+|            |          |            |         |
