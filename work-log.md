@@ -16,7 +16,7 @@ ilyaivanchikov
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
+| July 28    |          |            | add googleMap components |
 
 esoshyki
 
