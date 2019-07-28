@@ -4,5 +4,6 @@
     "title": {
         "one": "title one",
         "two": "title two"
-    }
+    },
+    "team_blocks": "TEAM BLOCKS (test i18next in this h2 tag)"
 }
