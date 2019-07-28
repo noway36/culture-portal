@@ -1,9 +1,9 @@
 import i18n from 'i18next';
 // import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
-import translationEN from './en.json';
-import translationBE from './be.json';
-import translationRU from './ru.json';
+import translationEN from './lexicon/en.json';
+import translationBE from './lexicon/be.json';
+import translationRU from './lexicon/ru.json';
 
 i18n
 // .use(LanguageDetector) // use to set basic language of user's browser language

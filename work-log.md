@@ -28,9 +28,10 @@ slava-ff
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
-| July 27    | July 28  | 5h         | read about i18n and i18next-react |
+| July 27    | July 27  | 5h         | read about i18n and i18next-react |
 | July 28    | July 28  | 2h         | implement i18next configuration   |
 | July 28    | July 28  | 1h         | add json lexicon                  |
+| July 28    | July 28  | 2h         | implement language toggle         |
 
 
 ihartsykala
