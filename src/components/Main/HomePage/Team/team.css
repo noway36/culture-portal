@@ -1,0 +1,75 @@
+.team_container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamCard_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.team_container h2 {
+    float: center;
+    line-height: 40px;
+}
+
+.teamCard {
+    margin: 10px 5px;
+    width: 130px;
+    height: 250px;
+    padding: 5px;
+    border: 1px solid black;
+    background: #e0d8d8;
+}
+
+.teamCard_photo {
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+    transform: rotate(-60deg)
+}
+
+.teamCard_photo_layer1 {
+    position: relative;
+    overflow: hidden;
+    top: 10px;
+    left: 16px;
+    transform: rotate(120deg);
+    width: 100px;
+    height: 130px;
+}
+
+.teamCard_photo_layer2 {
+    position: relative;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    width: 100px;
+    height: 100%;
+}
+
+.teamCard_github {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.teamCard_github:hover {
+    transform: scale(1.05)
+}
+
+@media(max-width: 850px) {
+    .teamCard {
+        width: 250px;
+    }
+}
+
+
