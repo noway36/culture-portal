@@ -9,6 +9,7 @@
 .photographer-name {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .photographer-name {
@@ -23,5 +24,4 @@
 
 .photographer-about {
     font-size: 22px;
-    text-align: center;
 }
