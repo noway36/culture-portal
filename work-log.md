@@ -16,13 +16,13 @@ ilyaivanchikov
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
-| July 28    | July 29  |  5 h       | team component with adaptive functionality  |
+|            |          |            |         |
 
 esoshyki
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
+| July 28    | July 29  | 5 h        | Team component with adaptive styles |
 
 slava-ff
 
