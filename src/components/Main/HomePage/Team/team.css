@@ -70,6 +70,10 @@
     height: 40px;
 }
 
+.teamCard_github i {
+    color: blueviolet;
+}
+
 @media(max-width: 850px) {
     .teamCard {
         width: 250px;
