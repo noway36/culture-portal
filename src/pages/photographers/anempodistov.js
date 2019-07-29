@@ -34,7 +34,7 @@ class Amnepodistov extends React.Component {
 
         return (
             <Layout>
-                <SEO title="Anempodistov" />
+                <SEO title="Анемподистов" />
                 <PhotographerPresentational
                     mainPic={mainPic}
                     name={name}

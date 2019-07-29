@@ -33,7 +33,7 @@ class Parfenok extends React.Component {
 
         return (
             <Layout>
-                <SEO title="Parfenok" />
+                <SEO title="Парфенок" />
                 <PhotographerPresentational
                     mainPic={mainPic}
                     name={name}
