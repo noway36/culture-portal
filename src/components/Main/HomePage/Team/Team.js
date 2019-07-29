@@ -6,9 +6,9 @@ class Team extends React.Component {
         super(props);
         this.state = {
             creators: [],
-            title: {}
+            title: {},
         };
-    };
+    }
 
     componentDidMount() {
         const _creators = [
@@ -26,7 +26,7 @@ class Team extends React.Component {
                 name_by: 'Аляксандр Дрэнь',
                 src: 'team_images/default.png',
                 alt: 'Dren',
-                gitHub: 'https://github.com/noway36'
+                gitHub: 'https://github.com/noway36',
             },
             {
                 name_eng: 'Ilya Ivanchikov',
@@ -34,7 +34,7 @@ class Team extends React.Component {
                 name_by: 'Iлля Iванчыкоy',
                 src: 'team_images/ivanchikov.png',
                 alt: 'Ivanchikov',
-                gitHub: 'https://github.com/ilyaivanchikov'
+                gitHub: 'https://github.com/ilyaivanchikov',
             },
             {
                 name_eng: 'Stanislau Famin',
@@ -42,7 +42,7 @@ class Team extends React.Component {
                 name_by: 'Станiслау Фамин',
                 src: 'team_images/default.png',
                 alt: 'Famin',
-                gitHub: 'https://github.com/slava-ff'
+                gitHub: 'https://github.com/slava-ff',
             },
             {
                 name_eng: 'Ihar Tsykala',
@@ -50,7 +50,7 @@ class Team extends React.Component {
                 name_by: 'Игар Цыкала',
                 src: 'team_images/default.png',
                 alt: 'Tsykala',
-                gitHub: 'https://github.com/ihartsykala'
+                gitHub: 'https://github.com/ihartsykala',
             },
             {
                 name_eng: 'Mukhamed Talaspaev',
@@ -58,7 +58,7 @@ class Team extends React.Component {
                 name_by: 'Мухамед Таласпаеу',
                 src: 'team_images/default.png',
                 alt: 'Talaspaev',
-                gitHub: 'https://github.com/talaspaev'
+                gitHub: 'https://github.com/talaspaev',
             },
             {
                 name_eng: 'Kemalkhan Shlembayev',
@@ -66,57 +66,63 @@ class Team extends React.Component {
                 name_by: 'Кемалхан Шлямбяеу',
                 src: 'team_images/default.png',
                 alt: 'Shlembayev',
-                gitHub: 'https://github.com/slider7'
+                gitHub: 'https://github.com/slider7',
             },
         ];
         const _title = {
             en: 'This site was created by delevopers:',
             ru: 'Этот сайт создан командой разработчиков:',
-            by: 'Гэты сайт створаны камандай распрацоўшчыкаў:'
+            by: 'Гэты сайт створаны камандай распрацоўшчыкаў:',
         };
         this.setState({
             creators: _creators,
-            title: _title
-        })
-
-    };
+            title: _title,
+        });
+    }
 
     render() {
-        const {creators} = this.state;
-        const {title} = this.state;
+        const { creators } = this.state;
+        const { title } = this.state;
         return (
             <>
-                <div className='team_container'>
+                <div className="team_container">
                     <h2>{title.ru}</h2>
-                    <div className='teamCard_container'>
-                        {creators.map((el,idx) => {
+                    <div className="teamCard_container">
+                        {creators.map((el, idx) => {
                             return (
                                 <div className="teamCard" id={`teamCard${idx}`}>
-                                    <div className='teamCard_photo_layer1'>
-                                        <div className='teamCard_photo_layer2'>
-                                            <div className='teamCard_photo'
+                                    <div className="teamCard_photo_layer1">
+                                        <div className="teamCard_photo_layer2">
+                                            <div
+                                                className="teamCard_photo"
                                                 style={{
                                                     background: `url(${el.src})`,
-                                                    backgroundPosition: 'center',
-                                                    backgroundSize: '110px'
-                                                }} />
+                                                    backgroundPosition:
+                                                        'center',
+                                                    backgroundSize: '110px',
+                                                }}
+                                            />
                                         </div>
                                     </div>
                                     <br />
-                                    <div className='teamCard_name'>
-                                        <h4 style={{
-                                            lineHeight: '20px',
-                                            textAlign: 'center'
-                                        }}>{el.name_ru}</h4>
+                                    <div className="teamCard_name">
+                                        <h4
+                                            style={{
+                                                lineHeight: '20px',
+                                                textAlign: 'center',
+                                            }}
+                                        >
+                                            {el.name_ru}
+                                        </h4>
                                     </div>
-                                    <div className='teamCard_github'>
+                                    <div className="teamCard_github">
                                         <a href={`${el.gitHub}`}>
                                             <i className="fab fa-github" />
                                         </a>
                                     </div>
-                                </div>)
-                        })
-                        }
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
             </>

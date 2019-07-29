@@ -17,7 +17,7 @@
 }
 
 .team_container h2 {
-    float: center;
+    text-align: center;
     line-height: 40px;
 }
 
