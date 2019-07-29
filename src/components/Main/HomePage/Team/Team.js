@@ -5,7 +5,8 @@ class Team extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            creators: []
+            creators: [],
+            title: null
         };
     };
 
@@ -69,17 +70,19 @@ class Team extends React.Component {
             },
         ];
         this.setState({
-            creators: creat
+            creators: creat,
+            title: 'This site was created by delevopers:'
         })
 
     };
 
     render() {
         const {creators} = this.state;
+        const {title} = this.state;
         return (
             <>
                 <div className='team_container'>
-                    <h2>Team Work</h2>
+                    <h2>{title}</h2>
                     <div className='teamCard_container'>
                         {creators.map((el,idx) => {
                             return (
@@ -99,7 +102,7 @@ class Team extends React.Component {
                                         <h4 style={{
                                             lineHeight: '20px',
                                             textAlign: 'center'
-                                        }}>{el.name_eng}</h4>
+                                        }}>{el.name_ru}</h4>
                                     </div>
                                     <div className='teamCard_github'>
                                         <a href={`${el.gitHub}`}>
