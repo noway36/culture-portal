@@ -19,6 +19,20 @@ class Parfenok extends React.Component {
             googleMap:
             'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.700302404739!2d27.583234015738938!3d53.91930133934083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfa125d183b7%3A0x247fd09224d3bf26!2svulica+Ku%C4%BAman+2%2C+Minsk+220089!5e0!3m2!1sen!2sby!4v1564320877626!5m2!1sen!2sby',
             googleLife: 'Руководитель галереи визуальных искусств «NOVA»',
+            timeLineDates: [
+                '1995',
+                '1996',
+                '1997',
+                '1999',
+                '2002'
+            ],
+            timeLineInfos: [
+                'Lucida momenta. Галерея Fotografisk Galleri. Копенгаген (Дания), Галерея Foto Medium Art. Вроцлав (Польша)',
+                'Lucida momenta. Художественная галерея Klodzki Osrodek Kultury. Клодзко (Польша)',
+                'Lucida momenta. Государственный художественный музей. В рамках второго Международного Шагаловского пленэра. Витебск (Беларусь)',
+                'Vladimir Parfenok. Photography. В рамках Backlight— пятого Международного фотографического триеннале. Центр фотографии Nykyaika. Тампере (Финляндия)',
+                'Недостоверные факты с места событий. M-галерея Института имени Гёте. Минск'
+            ],
         };
     }
 
@@ -30,6 +44,8 @@ class Parfenok extends React.Component {
         const { videoSrc } = this.state;
         const { googleMap } = this.state;
         const { googleLife } = this.state;
+        const { timeLineDates } = this.state;
+        const { timeLineInfos } = this.state;
 
         return (
             <Layout>
@@ -42,6 +58,8 @@ class Parfenok extends React.Component {
                     videoSrc={videoSrc}
                     googleLife={googleLife}
                     googleMap={googleMap}
+                    timeLineDates={timeLineDates}
+                    timeLineInfos={timeLineInfos}
                 />
             </Layout>
         );
