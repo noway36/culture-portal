@@ -6,12 +6,12 @@ class Team extends React.Component {
         super(props);
         this.state = {
             creators: [],
-            title: null
+            title: {}
         };
     };
 
     componentDidMount() {
-        const creat = [
+        const _creators = [
             {
                 name_eng: 'Dzmitri Faryna',
                 name_ru: 'Дмитрий Фарина',
@@ -69,9 +69,14 @@ class Team extends React.Component {
                 gitHub: 'https://github.com/slider7'
             },
         ];
+        const _title = {
+            en: 'This site was created by delevopers:',
+            ru: 'Этот сайт создан командой разработчиков:',
+            by: 'Гэты сайт створаны камандай распрацоўшчыкаў:'
+        };
         this.setState({
-            creators: creat,
-            title: 'This site was created by delevopers:'
+            creators: _creators,
+            title: _title
         })
 
     };
@@ -82,7 +87,7 @@ class Team extends React.Component {
         return (
             <>
                 <div className='team_container'>
-                    <h2>{title}</h2>
+                    <h2>{title.ru}</h2>
                     <div className='teamCard_container'>
                         {creators.map((el,idx) => {
                             return (
