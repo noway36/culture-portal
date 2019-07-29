@@ -5,6 +5,7 @@ import MainPicture from './MainPicture/MainPicture';
 import GeneralInfo from './GeneralInfo/GeneralInfo';
 import VideoModal from './VideoModal/VideoModal';
 import GoogleMap from './GoogleMap/GoogleMap';
+import TimeLine from './TimeLine/TimeLine';
 
 const PhotographerPresentational = props => {
     const { mainPic } = props;
@@ -14,11 +15,14 @@ const PhotographerPresentational = props => {
     const { videoSrc } = props;
     const { googleMap } = props;
     const { googleLife } = props;
+    const { timeLineDates } = props;
+    const { timeLineInfos } = props;
 
     return (
         <>
             <MainPicture mainPic={mainPic} />
             <GeneralInfo name={name} lifeYears={lifeYears} about={about} />
+            <TimeLine timeLineDates = {timeLineDates} timeLineInfos = {timeLineInfos} />
             <VideoModal videoSrc={videoSrc} />
             <GoogleMap  googleMap={googleMap} googleLife={googleLife} />
         </>
@@ -33,6 +37,8 @@ PhotographerPresentational.propTypes = {
     about: PropTypes.string.isRequired,
     googleMap: PropTypes.string.isRequired,
     googleLife: PropTypes.string.isRequired,
+    timeLineDates: PropTypes.instanceOf(Array).isRequired,
+    timeLineInfos: PropTypes.instanceOf(Array).isRequired,
 };
 
 export default PhotographerPresentational;
