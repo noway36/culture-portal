@@ -117,10 +117,7 @@ class Team extends React.Component {
                                     </div>
                                     <div className="teamCard_github">
                                         <a href={`${el.gitHub}`}>
-                                            <i className="fab fa-github"
-                                                style={{
-                                                    color: 'blue'
-                                                }} />
+                                            <i className="fab fa-github" />
                                         </a>
                                     </div>
                                 </div>
