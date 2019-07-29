@@ -6,6 +6,7 @@ noway36
 | July 27    | July 28  | 1h         | add some general components                    |
 | July 28    | July 29  | 1h         | implement photographer pages interaction logic |
 | July 29    | July 29  | 2h         | implement youtube-overlay                      |
+| July 30    | July 30  | 2h         | add template json files and 3 new authors      |
 
 talaspaev
 
@@ -22,7 +23,7 @@ ilyaivanchikov
 esoshyki
 
 | Start time | End time | time spent | feature                             |
-| ---------- | -------- | ---------- | ------------------------------------|
+| ---------- | -------- | ---------- | ----------------------------------- |
 | July 28    | July 29  | 5 h        | Team component with adaptive styles |
 
 slava-ff
