@@ -4,9 +4,9 @@ import Layout from '../../components/CreateLayout/Layout';
 import SEO from '../../components/Seo';
 import PhotographerPresentational from '../../components/PhotographerPresentational/PhotographerPresentational';
 
-import photographerInfo from '../../info/anempodistov.json';
+import photographerInfo from '../../info/klinov.json';
 
-class Amnepodistov extends React.Component {
+class Klinov extends React.Component {
     constructor(props) {
         super(props);
 
@@ -36,7 +36,7 @@ class Amnepodistov extends React.Component {
 
         return (
             <Layout>
-                <SEO title="Анемподистов" />
+                <SEO title="Клинов" />
                 <PhotographerPresentational
                     mainPic={mainPic}
                     name={name}
@@ -53,4 +53,4 @@ class Amnepodistov extends React.Component {
     }
 }
 
-export default Amnepodistov;
+export default Klinov;
