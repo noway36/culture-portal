@@ -1,10 +1,9 @@
 import React from 'react';
 import './home-page-about.css';
+import { Link } from 'gatsby';
 
 function Head() {
-    return <h2 className='home-page-about-head'>
-    Союз фотографов в Беларуси
-    </h2>;
+    return <h2 className='home-page-about-head'>Союз фотографов в Беларуси</h2>;
 }
 
 function Content() {
@@ -29,16 +28,14 @@ function Content() {
 
 function DailyPerson() {
     return <div className='home-page-about-daily'>
-        <div className='home-page-about-daily-head'>
-            Фотограф дня
-        </div>
-        <div className='home-page-about-daily-content'>
-            <h3>Фамилия Имя Отчество</h3>
-            <p>Дата рождения и дата смерти</p>
-            <p>Краткое описание</p>
-            {/* <button /> */}
-            <img src='' alt="Foto" />;
-        </div>
+        <h3>Фотограф дня</h3>
+        <h4>Анемподистов Михаил Владимирович</h4>
+        <h5>16 марта 1964 г. - 23 января 2018 г.</h5>
+        <p>Белорусский художник, дизайнер, поэт, культуролог, искусствовед.</p>
+        <img src="https://politring.com/uploads/posts/2018-01/medium/1516784716_dcee3768-9ddd-4175-9eb4-f2303fae8c40_cx0_cy3_cw0_w1023_r1_s.jpg" alt="Foto" />
+        <Link to="/photographers/anempodistov">
+            <button type="button">Перейти</button>
+        </Link>
     </div>
 }
 

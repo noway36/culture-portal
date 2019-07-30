@@ -2,7 +2,6 @@
     width: 100%;
     display: grid;
     justify-items: center;
-    /* grid-template-rows:  */
 }
 
 .home-page-about-head {
@@ -18,12 +17,107 @@
 
 .home-page-about-daily {
     margin: 20px;
+    width: 90%;
     display: grid;
-    grid-template-rows: 10% 90%;
-    border: 1px solid red;
+    position: relative;
+    border: 1px solid rgb(172, 4, 4);
+    grid-template-columns: 50% auto 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "head head head" "name name photo" "date date photo" "description description photo" "button button photo";
+    overflow: hidden;
 }
 
-.home-page-about-daily-head {
-    background-color: red;
-    min-height: 100%;
+.home-page-about-daily h3 {
+    grid-area: head;
+    background-color: rgb(172, 4, 4);
+    color: white;
+    font-size: 1.35rem;
+    padding: 1%;
+    margin: 0px 0 1.4rem;
+    display: grid;
+    justify-items: center;
 }
+
+.home-page-about-daily h4 {
+    grid-area: name;
+    margin: 0px 0px 1.4rem;
+    font-size: 1.2em;
+    padding: 0 10px;
+    display: grid;
+}
+
+.home-page-about-daily h5 {
+    grid-area: date;
+    margin: 0px 0px 1.4rem;
+    font-size: 0.9em;
+    padding: 0 10px;
+    color: #a7a7a7;
+    display: grid;
+}
+
+.home-page-about-daily p {
+    grid-area: description;
+    margin: 0px 0px 1.4rem;
+    font-size: 18px;
+    padding: 0 10px;
+    display: grid;
+}
+
+.home-page-about-daily button {
+    grid-area: button;
+    background-color: rgb(172, 4, 4);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px;
+    min-width: 120px;
+    border: 3px solid rgb(172, 4, 4);
+    font-weight: bolder;
+    display: grid;
+}
+
+.home-page-about-daily img {
+    grid-area: photo;
+    width: 90%;
+    height: 90%;
+    margin: 0 20px 0 0;
+}
+
+@media (max-width: 800px) {
+
+    .home-page-about-content p{
+        margin: 0 10px 15px;
+    }
+
+    .home-page-about-daily {
+        margin: 20px;
+        width: 95%;
+        grid-template-columns: 100%;
+        grid-template-areas: "head " "name " "date " "photo " "description " "button ";
+    }
+
+    .home-page-about-daily img {
+        width: 120px;
+        height: 160px;
+        justify-self: center;
+        padding-bottom: 20px;
+    }
+
+    .home-page-about-daily h4 {
+        text-align: center;
+    }
+
+    .home-page-about-daily h5 {
+        text-align: center;
+    }
+
+    .home-page-about-daily p {
+        justify-items: center;
+        text-align: center;
+    }
+
+    .home-page-about-daily button {
+        margin: 0px auto 20px;
+    }
+  }
