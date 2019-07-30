@@ -34,9 +34,14 @@ slava-ff
 
 ihartsykala
 
-| Start time | End time | time spent | feature |
-| ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
+| Start time | End time | time spent   | feature                           |
+| ---------- | -------- | ----------   | --------------------------------  |
+|  July 28   | July 28  |     0.5h     | add HomePageAbout.js Head         |
+|  July 28   | July 28  |     0.5h     | add HomePageAbout.css Head        |
+|  July 29   | July 29  |     1.5h     | add HomePageAbout.js Content      |
+|  July 29   | July 29  |     1.5h     | add HomePageAbout.css Content     |
+|  July 30   | July 30  |     2h       | add HomePageAbout.js DailyPerson  |
+|  July 30   | July 30  |     2h       | add HomePageAbout.css DailyPerson |
 
 Slider7
 
