@@ -18,18 +18,18 @@ class Photographers extends React.Component {
                     </Link>
                 </li>
                 <li className="photographer-link">
-                    <Link to="/photographers/anempodistov">
-                        Иванов Иван Иванович
+                    <Link to="/photographers/savchenko">
+                        Савченко Игорь Викторович
                     </Link>
                 </li>
                 <li className="photographer-link">
-                    <Link to="/photographers/anempodistov">
-                        Иванов Иван Иванович
+                    <Link to="/photographers/kachan">
+                        Качан Вадим Аркадьевич
                     </Link>
                 </li>
                 <li className="photographer-link">
-                    <Link to="/photographers/anempodistov">
-                        Иванов Иван Иванович
+                    <Link to="/photographers/klinov">
+                        Клинов Артур Александрович
                     </Link>
                 </li>
             </ul>
