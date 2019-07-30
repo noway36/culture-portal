@@ -1,0 +1,9 @@
+{
+    "Welcome to React": "Калi ласка запрашаем да React i да react-i18next",
+    "hello_world_key": "Прывiтанне, <br/> <strong>Мiр</strong>",
+    "title": {
+        "one": "загаловак адзiн",
+        "two": "загаловак два"
+    },
+    "team blocks": "БЛОКI КАМАНД (тэст i18next у гэтым h2 тэге)"
+}

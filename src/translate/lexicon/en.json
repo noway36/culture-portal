@@ -1,0 +1,9 @@
+{
+    "Welcome to React": "Welcome to React and react-i18next",
+    "hello_world_key": "Hello <br/> <strong>World</strong>",
+    "title": {
+        "one": "title one",
+        "two": "title two"
+    },
+    "team blocks": "TEAM BLOCKS (test i18next in this h2 tag)"
+}
