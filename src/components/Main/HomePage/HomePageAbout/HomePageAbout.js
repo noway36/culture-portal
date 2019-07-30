@@ -39,7 +39,6 @@ function DailyPerson() {
     </div>
 }
 
-
 class HomePageAbout extends React.Component {
     render() {
         return (
