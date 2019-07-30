@@ -1,8 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+import i18n from './i18n';
+
+import './translate.css';
+
 export default function Translate () {
-    const { i18n } = useTranslation();
+    useTranslation();
 
     const changeLanguage = (locale) => {
         i18n.changeLanguage(locale);
