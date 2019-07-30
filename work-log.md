@@ -35,7 +35,7 @@ slava-ff
 | July 28    | July 28  | 0.5h       | add json lexicon                              |
 | July 28    | July 28  | 2h         | add language toggle function                  |
 | July 28    | July 28  | 0.5h       | try to use i18next withou hooks               |
-| July 28    | July 29  | 1h         | try to fix bug: not working changing language |
+| July 28    | July 31  | 6h         | fix bug: not working changing language        |
 
 
 ihartsykala
