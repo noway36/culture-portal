@@ -84,11 +84,15 @@
     margin: 0 20px 0 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
 
     .home-page-about-content p{
         margin: 0 10px 15px;
     }
+
+}
+
+@media (max-width: 800px) {
 
     .home-page-about-daily {
         margin: 20px;
