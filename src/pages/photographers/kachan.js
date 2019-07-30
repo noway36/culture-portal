@@ -36,7 +36,7 @@ class Kachan extends React.Component {
 
         return (
             <Layout>
-                <SEO title="Парфенок" />
+                <SEO title="Качан" />
                 <PhotographerPresentational
                     mainPic={mainPic}
                     name={name}

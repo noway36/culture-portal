@@ -36,7 +36,7 @@ class Savchenko extends React.Component {
 
         return (
             <Layout>
-                <SEO title="Парфенок" />
+                <SEO title="Савченко" />
                 <PhotographerPresentational
                     mainPic={mainPic}
                     name={name}

@@ -36,7 +36,7 @@ class Klinov extends React.Component {
 
         return (
             <Layout>
-                <SEO title="Парфенок" />
+                <SEO title="Клинов" />
                 <PhotographerPresentational
                     mainPic={mainPic}
                     name={name}
