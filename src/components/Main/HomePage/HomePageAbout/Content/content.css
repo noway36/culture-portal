@@ -1,0 +1,12 @@
+.home-page-about-content p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media (max-width: 1200px) {
+
+    .home-page-about-content p{
+        margin: 0 10px 15px;
+    }
+}
