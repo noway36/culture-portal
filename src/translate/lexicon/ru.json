@@ -1,0 +1,10 @@
+{
+    "Photographers of Belarus": "Фотографы Беларуси",
+    "Welcome to React": "Добро пожаловать в React и react-i18next",
+    "hello_world_key": "Привет, <br/> <strong>Мир</strong>",
+    "title": {
+        "one": "заголовок один",
+        "two": "заголовок два"
+    },
+    "team blocks": "БЛОКИ КОМАНД (тест i18next в этом h2 тэге)"
+}

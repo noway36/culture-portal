@@ -13,6 +13,7 @@ class Team extends React.Component {
     componentDidMount() {
         const _creators = [
             {
+                id: '1',
                 name_eng: 'Dzmitri Faryna',
                 name_ru: 'Дмитрий Фарина',
                 name_by: 'Дзмiтрый Фарына',
@@ -21,6 +22,7 @@ class Team extends React.Component {
                 gitHub: 'https://github.com/esoshyki',
             },
             {
+                id: '2',
                 name_eng: 'Aleksandr Dren',
                 name_ru: 'Александр Дрень',
                 name_by: 'Аляксандр Дрэнь',
@@ -29,6 +31,7 @@ class Team extends React.Component {
                 gitHub: 'https://github.com/noway36',
             },
             {
+                id: '3',
                 name_eng: 'Ilya Ivanchikov',
                 name_ru: 'Илья Иванчиков',
                 name_by: 'Iлля Iванчыкоy',
@@ -37,6 +40,7 @@ class Team extends React.Component {
                 gitHub: 'https://github.com/ilyaivanchikov',
             },
             {
+                id: '4',
                 name_eng: 'Stanislau Famin',
                 name_ru: 'Станислав Фомин',
                 name_by: 'Станiслау Фамин',
@@ -45,6 +49,7 @@ class Team extends React.Component {
                 gitHub: 'https://github.com/slava-ff',
             },
             {
+                id: '5',
                 name_eng: 'Ihar Tsykala',
                 name_ru: 'Игорь Цыкало',
                 name_by: 'Игар Цыкала',
@@ -53,6 +58,7 @@ class Team extends React.Component {
                 gitHub: 'https://github.com/ihartsykala',
             },
             {
+                id: '6',
                 name_eng: 'Mukhamed Talaspaev',
                 name_ru: 'Мухаммед Таласпаев',
                 name_by: 'Мухамед Таласпаеу',
@@ -61,6 +67,7 @@ class Team extends React.Component {
                 gitHub: 'https://github.com/talaspaev',
             },
             {
+                id: '7',
                 name_eng: 'Kemalkhan Shlembayev',
                 name_ru: 'Кемалхан Шлембаев',
                 name_by: 'Кемалхан Шлямбяеу',
@@ -90,7 +97,7 @@ class Team extends React.Component {
                     <div className="teamCard_container">
                         {creators.map((el, idx) => {
                             return (
-                                <div className="teamCard" id={`teamCard${idx}`}>
+                                <div className="teamCard" key={el.id} id={`teamCard${idx}`}>
                                     <div className="teamCard_photo_layer1">
                                         <div className="teamCard_photo_layer2">
                                             <div
