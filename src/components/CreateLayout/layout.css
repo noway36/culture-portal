@@ -12,6 +12,7 @@ img {
 
 body,
 html {
+    overflow-y: overlay;
     width: 100%;
     font-size: 14px;
     background: #fff;

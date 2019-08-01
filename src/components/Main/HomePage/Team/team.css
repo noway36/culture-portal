@@ -34,7 +34,7 @@
     width: 100px;
     height: 100%;
     overflow: hidden;
-    transform: rotate(-60deg)
+    transform: rotate(-60deg);
 }
 
 .teamCard_photo_layer1 {
@@ -58,12 +58,8 @@
 .teamCard_github {
     position: relative;
     top: 10px;
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
-}
-
-.teamCard_github:hover {
-    transform: scale(1.05)
 }
 
 .teamCard_name {
@@ -74,7 +70,11 @@
     color: blueviolet;
 }
 
-@media(max-width: 850px) {
+.teamCard_github i:hover {
+    color: rgb(72, 72, 216);
+}
+
+@media (max-width: 850px) {
     .teamCard {
         width: 250px;
     }
@@ -82,8 +82,4 @@
     .teamCard_photo_layer1 {
         left: 76px;
     }
-
-
 }
-
-

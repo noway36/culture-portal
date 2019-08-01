@@ -6,12 +6,12 @@ class SearchPage extends React.Component {
     constructor() {
         super();
         this.state = {
-            searchQuery : '',
-        }
+            searchQuery: '',
+        };
         this.searchFio = this.searchFio.bind(this);
     }
 
-    searchFio(evt){
+    searchFio(evt) {
         evt.preventDefault();
 
         const searchQuery = evt.target.value;
@@ -21,10 +21,12 @@ class SearchPage extends React.Component {
     }
 
     render() {
+        const { searchQuery } = this.state;
+
         return (
             <>
-                <SearchLine searchFio = {this.searchFio} />
-                <PhotographersList searchQuery = {this.state.searchQuery} />
+                <SearchLine searchFio={this.searchFio} />
+                <PhotographersList searchQuery={searchQuery} />
             </>
         );
     }
