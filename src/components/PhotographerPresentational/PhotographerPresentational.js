@@ -17,6 +17,7 @@ const PhotographerPresentational = props => {
     const { googleLife } = props;
     const { timeLineDates } = props;
     const { timeLineInfos } = props;
+    const { gallery } = props;
 
     return (
         <>
@@ -28,7 +29,7 @@ const PhotographerPresentational = props => {
             />
             <VideoButton videoSrc={videoSrc} />
             <GoogleMap googleMap={googleMap} googleLife={googleLife} />
-            <Gallery />
+            <Gallery gallery={gallery} />
         </>
     );
 };
@@ -43,6 +44,7 @@ PhotographerPresentational.propTypes = {
     googleLife: PropTypes.string.isRequired,
     timeLineDates: PropTypes.arrayOf(PropTypes.string).isRequired,
     timeLineInfos: PropTypes.arrayOf(PropTypes.string).isRequired,
+    gallery: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default PhotographerPresentational;
