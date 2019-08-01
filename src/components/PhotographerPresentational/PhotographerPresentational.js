@@ -6,7 +6,7 @@ import GeneralInfo from './GeneralInfo/GeneralInfo';
 import VideoButton from './VideoButton/VideoButton';
 import GoogleMap from './GoogleMap/GoogleMap';
 import TimeLine from './TimeLine/TimeLine';
-
+import Gallery from './Gallery/Gallery';
 const PhotographerPresentational = props => {
     const { mainPic } = props;
     const { name } = props;
@@ -28,6 +28,7 @@ const PhotographerPresentational = props => {
             />
             <VideoButton videoSrc={videoSrc} />
             <GoogleMap googleMap={googleMap} googleLife={googleLife} />
+            <Gallery />
         </>
     );
 };
