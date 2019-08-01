@@ -51,6 +51,8 @@ ihartsykala
 
 Slider7
 
-| Start time | End time | time spent | feature |
-| ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
+| Start time | End time | time spent | feature                                            |
+| ---------- | -------- | ---------- | -------------------------------------------------- |
+| July 28    | July 28  | 2h         | communicate with teammates about project structure |
+| July 29    | July 29  | 2h         | analyze and implement TimeLine component           |
+| July 30    | July 30  | 1h         | find, edit and prepare info about photographer #2  |
