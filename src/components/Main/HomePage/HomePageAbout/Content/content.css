@@ -5,9 +5,17 @@
     line-height: 1.5
 }
 
+.home-page-about-content #test {
+    font-weight: '600';
+}
+
 @media (max-width: 1200px) {
 
     .home-page-about-content p{
         margin: 0 10px 15px;
+    }
+
+    .home-page-about-content #test {
+        font-weight: '600';
     }
 }
