@@ -36,6 +36,7 @@ slava-ff
 | July 28    | July 28  | 2h         | add language toggle function                  |
 | July 28    | July 28  | 0.5h       | try to use i18next withou hooks               |
 | July 28    | July 31  | 6h         | fix bug: not working changing language        |
+| August 1   | August 1 | 1h         | write README about i18next in this project    |
 
 
 ihartsykala
