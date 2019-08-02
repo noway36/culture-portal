@@ -15,7 +15,8 @@ const VideoModal = props => {
             </button>
             <div className="video-container">
                 <iframe
-                    title="myFrame"
+                    className="photographer-video"
+                    title="photographer-video"
                     width="560"
                     height="349"
                     src={videoSrc}
