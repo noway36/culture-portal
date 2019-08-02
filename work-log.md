@@ -20,7 +20,7 @@ ilyaivanchikov
 | ---------- | -------- | ---------- | ------------------------ |
 | July 28    | July 29  | 2h         | add googleMap components |
 | August 1   | August 1 | 1h         | add loader for map       |
-| August 1   | August 2 | 4h         | add galllery components  |
+| August 1   | August 2 | 5h         | add galllery components  |
 
 
 esoshyki
