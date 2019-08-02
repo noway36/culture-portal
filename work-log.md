@@ -18,7 +18,10 @@ ilyaivanchikov
 
 | Start time | End time | time spent | feature                  |
 | ---------- | -------- | ---------- | ------------------------ |
-| July 28    |          |            | add googleMap components |
+| July 28    | July 29  | 2h         | add googleMap components |
+| August 1   | August 1 | 1h         | add loader for map       |
+| August 1   | August 2 | 4h         | add galllery components  |
+
 
 esoshyki
 
