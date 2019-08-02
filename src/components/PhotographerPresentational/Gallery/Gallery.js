@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { withTranslation, Trans } from 'react-i18next';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import './gallery.css';
 
@@ -14,7 +15,9 @@ class Gallery extends React.Component {
     render() {
         return (
             <div className="gallery-container">
-                <p className="gallery-text">Галерея</p>
+                <p className="gallery-text">
+                    <Trans>Gallery</Trans>
+                </p>
                 <Carousel
                     autoPlay
                     infiniteLoop
@@ -26,10 +29,11 @@ class Gallery extends React.Component {
                     centerMode
                     centerSlidePercentage={100}
                 >
-                    {this.gallery.map((item, index) =>
+                    {this.gallery.map((item, index) => (
                         <div key={this.gallery[index]}>
-                            <img src={item} alt={index}/>
-                        </div>)}
+                            <img src={item} alt={index} />
+                        </div>
+                    ))}
                 </Carousel>
             </div>
         );
@@ -39,4 +43,4 @@ Gallery.propTypes = {
     gallery: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export default Gallery;
+export default withTranslation()(Gallery);
