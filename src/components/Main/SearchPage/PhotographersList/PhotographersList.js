@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import i18n from 'i18next';
+import { withTranslation, Trans } from 'react-i18next';
 
 import './photographers-list.css';
 import personsList from '../../../../info/persons-list.json';
@@ -48,7 +49,9 @@ class Photographers extends React.Component {
             <ul className="photographers-list">
                 {this.personsList.map(person => (
                     <li className="photographer-link" key={person.link}>
-                        <Link to={person.link}>{person.fioRus}</Link>
+                        <Link to={person.link}>
+                            <Trans>{person.fioEng}</Trans>
+                        </Link>
                     </li>
                 ))}
             </ul>
@@ -61,4 +64,4 @@ Photographers.propTypes = {
 };
 Photographers.defaultProps = { searchQuery: '' };
 
-export default Photographers;
+export default withTranslation()(Photographers);
