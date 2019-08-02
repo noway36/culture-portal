@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation, Trans } from 'react-i18next';
 
 import VideoModal from './VideoModal/VideoModal';
 
@@ -42,7 +43,7 @@ class VideoButton extends React.Component {
                     onClick={this.showModal}
                     className="video-button"
                 >
-                    Смотреть видео
+                    <Trans>Watch video</Trans>
                 </button>
             </>
         );
@@ -53,4 +54,4 @@ VideoButton.propTypes = {
     videoSrc: PropTypes.string.isRequired,
 };
 
-export default VideoButton;
+export default withTranslation()(VideoButton);
