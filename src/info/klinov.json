@@ -13,5 +13,12 @@
         "Lucida momenta. Государственный художественный музей. В рамках второго Международного Шагаловского пленэра. Витебск (Беларусь)",
         "Vladimir Parfenok. Photography. В рамках Backlight— пятого Международного фотографического триеннале. Центр фотографии Nykyaika. Тампере (Финляндия)",
         "Недостоверные факты с места событий. M-галерея Института имени Гёте. Минск"
+    ],
+    "gallery": [
+        "/gallery/klinov/1.jpg",
+        "/gallery/klinov/2.jpg",
+        "/gallery/klinov/3.jpg",
+        "/gallery/klinov/4.jpg",
+        "/gallery/klinov/5.jpg"
     ]
 }
