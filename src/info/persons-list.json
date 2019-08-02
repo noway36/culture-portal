@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "link": "/photographers/anempodistov",
+            "fioRus": "Анемподистов Михаил Владимирович",
+            "fioBel": "Анемпадыстаў Міхаіл Уладзіміравіч",
+            "fioEng": "Anempodistov Mikhail Vladimirovich",
+            "yearOfBirth": "1964"
+        },
+
+        {
+            "link": "/photographers/parfenok",
+            "fioRus": "Парфенок Владимир Петрович",
+            "fioBel": "Парфенак Уладзімір Пятровіч",
+            "fioEng": "Parfenok Vladimir Petrovich",
+            "yearOfBirth": "1958"
+        },
+
+        {
+            "link": "/photographers/savchenko",
+            "fioRus": "Савченко Игорь Викторович",
+            "fioBel": "Саўчанка Ігар Віктаравіч",
+            "fioEng": "Savchenko Igor Viktorovich",
+            "yearOfBirth": "1962"
+        },
+
+        {
+            "link": "/photographers/kachan",
+            "fioRus": "Качан Вадим Аркадьевич",
+            "fioBel": "Качан Вадзім Аркадзьевіч",
+            "fioEng": "Kachan Vadim Arkadyevich",
+            "yearOfBirth": "1958"
+        },
+
+        {
+            "link": "/photographers/klinov",
+            "fioRus": "Клинов Артур Александрович",
+            "fioBel": "Клінаў Артур Аляксандравіч",
+            "fioEng": "Klinov Artur Aleksandrovich",
+            "yearOfBirth": "1965"
+        }
+    ]
+}

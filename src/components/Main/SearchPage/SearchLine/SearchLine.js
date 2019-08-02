@@ -1,13 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
 
 import './search-line.css';
 
-class SearchLine extends React.Component {
-    render() {
-        return (
-            <input className="search-line" type="search" placeholder="Поиск" />
-        );
-    }
-}
+const SearchLine = props => {
+    const { searchFio } = props;
+    const { t } = useTranslation();
+
+    return (
+        <input
+            className="search-line"
+            type="search"
+            placeholder={t('Search')}
+            onChange={searchFio}
+        />
+    );
+};
+
+SearchLine.propTypes = {
+    searchFio: PropTypes.func.isRequired,
+};
 
 export default SearchLine;
