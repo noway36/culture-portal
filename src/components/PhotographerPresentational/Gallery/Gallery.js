@@ -19,13 +19,16 @@ class Gallery extends React.Component {
                     autoPlay
                     infiniteLoop
                     useKeyboardArrows
-                    interval={2000}
+                    interval={3000}
                     dynamicHeight
                     emulateTouch
+                    showStatus={false}
+                    centerMode
+                    centerSlidePercentage={100}
                 >
                     {this.gallery.map((item, index) =>
                         <div key={this.gallery[index]}>
-                            <img src={item} alt="anempodistov"/>
+                            <img src={item} alt={index}/>
                         </div>)}
                 </Carousel>
             </div>

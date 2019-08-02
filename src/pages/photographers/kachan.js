@@ -20,6 +20,7 @@ class Kachan extends React.Component {
             googleLife: photographerInfo.googleLife,
             timeLineDates: photographerInfo.timeLineDates,
             timeLineInfos: photographerInfo.timeLineInfos,
+            gallery: photographerInfo.gallery,
         };
     }
 
@@ -33,6 +34,7 @@ class Kachan extends React.Component {
         const { googleLife } = this.state;
         const { timeLineDates } = this.state;
         const { timeLineInfos } = this.state;
+        const { gallery } = this.state;
 
         return (
             <Layout>
@@ -47,6 +49,7 @@ class Kachan extends React.Component {
                     googleMap={googleMap}
                     timeLineDates={timeLineDates}
                     timeLineInfos={timeLineInfos}
+                    gallery={gallery}
                 />
             </Layout>
         );
