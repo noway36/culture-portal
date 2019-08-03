@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import { withTranslation, Trans } from 'react-i18next';
 
 class PersonTimeLine extends React.Component {
     constructor(props) {
@@ -30,7 +31,9 @@ class PersonTimeLine extends React.Component {
                                     '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
                             }}
                         >
-                            <p>{this.timeLineInfos[index]}</p>
+                            <p>
+                                <Trans>{this.timeLineInfos[index]}</Trans>
+                            </p>
                         </TimelineItem>
                     );
                 })}
@@ -44,4 +47,4 @@ PersonTimeLine.propTypes = {
     timeLineInfos: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export default PersonTimeLine;
+export default withTranslation()(PersonTimeLine);
