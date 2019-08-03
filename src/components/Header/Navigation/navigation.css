@@ -29,6 +29,7 @@
 .navigation-link:hover a {
     background: rgb(164, 164, 233);
     color: #fff;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 .navigation-link:active {

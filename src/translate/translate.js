@@ -31,7 +31,11 @@ export default function Translate() {
 
     return (
         <div className="language-select">
-            <FormControl className={classes.formControl}>
+            <FormControl className={classes.formControl}
+                style={{
+                    display: 'flex',
+                    alignItems: 'center'
+                }}>
                 <Select
                     value={currentLanguage}
                     onChange={handleChange}
@@ -40,9 +44,9 @@ export default function Translate() {
                         id: 'controlled-open-select',
                     }}
                 >
-                    <MenuItem value="ru">ru</MenuItem>
-                    <MenuItem value="be">be</MenuItem>
-                    <MenuItem value="en">en</MenuItem>
+                    <MenuItem value="ru"><img class='language-select-image' src='/language-icons/russia.png' alt='ru' /></MenuItem>
+                    <MenuItem value="be"><img class='language-select-image' src='/language-icons/bel.png' alt='ru' /></MenuItem>
+                    <MenuItem value="en"><img class='language-select-image' src='/language-icons/eng.png' alt='ru' /></MenuItem>
                 </Select>
             </FormControl>
         </div>
