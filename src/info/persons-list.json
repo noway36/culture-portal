@@ -5,7 +5,10 @@
             "fioRus": "Анемподистов Михаил Владимирович",
             "fioBel": "Анемпадыстаў Міхаіл Уладзіміравіч",
             "fioEng": "Anempodistov Mikhail Vladimirovich",
-            "yearOfBirth": "1964"
+            "yearOfBirth": "1964",
+            "birthplaceRus": "Минск",
+            "birthplaceEng": "Minsk",
+            "birthplaceBel": "Мінск"
         },
 
         {
@@ -13,7 +16,10 @@
             "fioRus": "Парфенок Владимир Петрович",
             "fioBel": "Парфенак Уладзімір Пятровіч",
             "fioEng": "Parfenok Vladimir Petrovich",
-            "yearOfBirth": "1958"
+            "yearOfBirth": "1958",
+            "birthplaceRus": "Гродненская область",
+            "birthplaceEng": "Grodno region",
+            "birthplaceBel": "Гродзенская вобласць"
         },
 
         {
@@ -21,7 +27,10 @@
             "fioRus": "Савченко Игорь Викторович",
             "fioBel": "Саўчанка Ігар Віктаравіч",
             "fioEng": "Savchenko Igor Viktorovich",
-            "yearOfBirth": "1962"
+            "yearOfBirth": "1962",
+            "birthplaceRus": "Минск",
+            "birthplaceEng": "Minsk",
+            "birthplaceBel": "Мінск"
         },
 
         {
@@ -29,7 +38,10 @@
             "fioRus": "Качан Вадим Аркадьевич",
             "fioBel": "Качан Вадзім Аркадзьевіч",
             "fioEng": "Kachan Vadim Arkadyevich",
-            "yearOfBirth": "1958"
+            "yearOfBirth": "1958",
+            "birthplaceRus": "Брестская область",
+            "birthplaceEng": "Brest region",
+            "birthplaceBel": "Брэсцкая вобласць"
         },
 
         {
@@ -37,7 +49,10 @@
             "fioRus": "Клинов Артур Александрович",
             "fioBel": "Клінаў Артур Аляксандравіч",
             "fioEng": "Klinov Artur Aleksandrovich",
-            "yearOfBirth": "1965"
+            "yearOfBirth": "1965",
+            "birthplaceRus": "Минск",
+            "birthplaceEng": "Minsk",
+            "birthplaceBel": "Мінск"
         }
     ]
 }

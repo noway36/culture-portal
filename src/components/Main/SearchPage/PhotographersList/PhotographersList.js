@@ -18,12 +18,17 @@ class Photographers extends React.Component {
         const currentLanguage = i18n.language;
         let searchKey = 'fioRus';
 
+        let searchKeyPlace = 'birthplaceRus';
+
         if (currentLanguage === 'ru') {
             searchKey = 'fioRus';
+            searchKeyPlace = 'birthplaceRus';
         } else if (currentLanguage === 'en') {
             searchKey = 'fioEng';
+            searchKeyPlace = 'birthplaceEng';
         } else if (currentLanguage === 'by') {
             searchKey = 'fioBel';
+            searchKeyPlace = 'birthplaceBel';
         }
 
         this.searchQuery = nextProps.searchQuery;
@@ -32,7 +37,10 @@ class Photographers extends React.Component {
                 person[searchKey]
                     .toLowerCase()
                     .indexOf(this.searchQuery.toLowerCase()) > -1 ||
-                person.yearOfBirth === this.searchQuery,
+
+                person.yearOfBirth === this.searchQuery ||
+                person[searchKeyPlace].toLowerCase().indexOf(this.searchQuery.toLowerCase()) > -1 ,
+
         );
         if (this.personsList.length === 0) {
             this.personsList = [
