@@ -12,14 +12,14 @@ class Navigation extends React.Component {
                 <ul className="navigation">
                     <li className="navigation-link">
                         <Link to="/">
-                            <Button variant='contained' color='primary'>
+                            <Button variant='contained' color='primary' fullWidth={true}>
                                 <Trans>Home page</Trans>
                             </Button>
                         </Link>
                     </li>
                     <li className="navigation-link">
                         <Link to="/search">
-                            <Button variant='contained' color='primary'>
+                            <Button variant='contained' color='primary' fullWidth={true}>
                                 <Trans>Search page</Trans>
                             </Button>
                         </Link>
