@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import Layout from '../../components/CreateLayout/Layout';
 import SEO from '../../components/Seo';
@@ -6,54 +7,37 @@ import PhotographerPresentational from '../../components/PhotographerPresentatio
 
 import photographerInfo from '../../info/savchenko.json';
 
-class Savchenko extends React.Component {
-    constructor(props) {
-        super(props);
+const Savchenko = () => {
+    const { t } = useTranslation();
 
-        this.state = {
-            mainPic: photographerInfo.mainPic,
-            name: photographerInfo.name,
-            lifeYears: photographerInfo.lifeYears,
-            about: photographerInfo.about,
-            videoSrc: photographerInfo.videoSrc,
-            googleMap: photographerInfo.googleMap,
-            googleLife: photographerInfo.googleLife,
-            timeLineDates: photographerInfo.timeLineDates,
-            timeLineInfos: photographerInfo.timeLineInfos,
-            gallery: photographerInfo.gallery,
-        };
-    }
+    const { mainPic } = photographerInfo;
+    const { name } = photographerInfo;
+    const { lifeYears } = photographerInfo;
+    const { about } = photographerInfo;
+    const { videoSrc } = photographerInfo;
+    const { googleMap } = photographerInfo;
+    const { googleLife } = photographerInfo;
+    const { timeLineDates } = photographerInfo;
+    const { timeLineInfos } = photographerInfo;
+    const { gallery } = photographerInfo;
 
-    render() {
-        const { mainPic } = this.state;
-        const { name } = this.state;
-        const { lifeYears } = this.state;
-        const { about } = this.state;
-        const { videoSrc } = this.state;
-        const { googleMap } = this.state;
-        const { googleLife } = this.state;
-        const { timeLineDates } = this.state;
-        const { timeLineInfos } = this.state;
-        const { gallery } = this.state;
-
-        return (
-            <Layout>
-                <SEO title="Савченко" />
-                <PhotographerPresentational
-                    mainPic={mainPic}
-                    name={name}
-                    lifeYears={lifeYears}
-                    about={about}
-                    videoSrc={videoSrc}
-                    googleLife={googleLife}
-                    googleMap={googleMap}
-                    timeLineDates={timeLineDates}
-                    timeLineInfos={timeLineInfos}
-                    gallery={gallery}
-                />
-            </Layout>
-        );
-    }
-}
+    return (
+        <Layout>
+            <SEO title={t('Savchenko Igor Viktorovich')} />
+            <PhotographerPresentational
+                mainPic={mainPic}
+                name={name}
+                lifeYears={lifeYears}
+                about={about}
+                videoSrc={videoSrc}
+                googleLife={googleLife}
+                googleMap={googleMap}
+                timeLineDates={timeLineDates}
+                timeLineInfos={timeLineInfos}
+                gallery={gallery}
+            />
+        </Layout>
+    );
+};
 
 export default Savchenko;

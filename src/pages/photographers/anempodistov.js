@@ -8,6 +8,8 @@ import PhotographerPresentational from '../../components/PhotographerPresentatio
 import photographerInfo from '../../info/anempodistov.json';
 
 const Amnepodistov = () => {
+    const { t } = useTranslation();
+
     const { mainPic } = photographerInfo;
     const { name } = photographerInfo;
     const { lifeYears } = photographerInfo;
@@ -21,7 +23,7 @@ const Amnepodistov = () => {
 
     return (
         <Layout>
-            <SEO title="Анемподистов" />
+            <SEO title={t('Anempodistov Mikhail Vladimirovich')} />
             <PhotographerPresentational
                 mainPic={mainPic}
                 name={name}
