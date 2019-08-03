@@ -2,4 +2,17 @@
     position: absolute;
     top: 1%;
     left: 1%;
+    padding: auto;
+    width: 50px;
+    height: 40px;
+}
+
+.language-select:first-child {
+    margin: auto;
+}
+
+.language-select-image {
+    width: 15px;
+    height: 15px;
+    margin: auto;
 }

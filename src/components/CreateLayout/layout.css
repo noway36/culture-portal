@@ -13,6 +13,7 @@ img {
 body,
 html {
     overflow-y: overlay;
+    overflow-x: hidden;
     width: 100%;
     font-size: 14px;
     background: #fff;
@@ -48,5 +49,5 @@ input:focus {
     align-items: center;
     max-width: 960px;
     margin: 30px auto 0px auto;
-    padding-right: 15px;
+    padding: 20px;
 }

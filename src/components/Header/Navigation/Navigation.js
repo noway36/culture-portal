@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { withTranslation, Trans } from 'react-i18next';
+import Button from '@material-ui/core/Button';
 
 import './navigation.css';
 
@@ -11,12 +12,16 @@ class Navigation extends React.Component {
                 <ul className="navigation">
                     <li className="navigation-link">
                         <Link to="/">
-                            <Trans>Home page</Trans>
+                            <Button variant='contained' color='primary'>
+                                <Trans>Home page</Trans>
+                            </Button>
                         </Link>
                     </li>
                     <li className="navigation-link">
                         <Link to="/search">
-                            <Trans>Search page</Trans>
+                            <Button variant='contained' color='primary'>
+                                <Trans>Search page</Trans>
+                            </Button>
                         </Link>
                     </li>
                 </ul>
