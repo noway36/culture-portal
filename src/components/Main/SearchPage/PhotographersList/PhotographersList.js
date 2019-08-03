@@ -17,6 +17,7 @@ class Photographers extends React.Component {
     componentWillReceiveProps(nextProps) {
         const currentLanguage = i18n.language;
         let searchKey = 'fioRus';
+
         let searchKeyPlace = 'birthplaceRus';
 
         if (currentLanguage === 'ru') {
@@ -36,8 +37,10 @@ class Photographers extends React.Component {
                 person[searchKey]
                     .toLowerCase()
                     .indexOf(this.searchQuery.toLowerCase()) > -1 ||
+
                 person.yearOfBirth === this.searchQuery ||
                 person[searchKeyPlace].toLowerCase().indexOf(this.searchQuery.toLowerCase()) > -1 ,
+
         );
         if (this.personsList.length === 0) {
             this.personsList = [
@@ -55,7 +58,7 @@ class Photographers extends React.Component {
                 {this.personsList.map(person => (
                     <li className="photographer-link" key={person.link}>
                         <Link to={person.link}>
-                            <Trans>{person.fioRus}</Trans>
+                            <Trans>{person.fioEng}</Trans>
                         </Link>
                     </li>
                 ))}
