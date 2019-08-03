@@ -36,7 +36,7 @@ export default function Translate() {
                     value={currentLanguage}
                     onChange={handleChange}
                     inputProps={{
-                        name: 'age',
+                        name: 'lang',
                         id: 'controlled-open-select',
                     }}
                 >

@@ -9,7 +9,7 @@ noway36
 | July 30    | July 30  | 2h         | add template json files and 3 new authors      |
 | August 1   | August 2 | 1h         | bugfixing and refactoring                      |
 | August 2   | August 3 | 2h         | content translate                              |
-| August 3   | August 3 | 0.5h       | refactoring                                    |
+| August 3   | August 3 | 0.5h       | bugfixing and refactoring                      |
 
 talaspaev
 

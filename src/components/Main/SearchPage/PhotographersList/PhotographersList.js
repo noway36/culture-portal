@@ -26,7 +26,7 @@ class Photographers extends React.Component {
         } else if (currentLanguage === 'en') {
             searchKey = 'fioEng';
             searchKeyPlace = 'birthplaceEng';
-        } else if (currentLanguage === 'by') {
+        } else if (currentLanguage === 'be') {
             searchKey = 'fioBel';
             searchKeyPlace = 'birthplaceBel';
         }
@@ -37,10 +37,10 @@ class Photographers extends React.Component {
                 person[searchKey]
                     .toLowerCase()
                     .indexOf(this.searchQuery.toLowerCase()) > -1 ||
-
                 person.yearOfBirth === this.searchQuery ||
-                person[searchKeyPlace].toLowerCase().indexOf(this.searchQuery.toLowerCase()) > -1 ,
-
+                person[searchKeyPlace]
+                    .toLowerCase()
+                    .indexOf(this.searchQuery.toLowerCase()) > -1,
         );
         if (this.personsList.length === 0) {
             this.personsList = [
