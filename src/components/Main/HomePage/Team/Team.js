@@ -38,7 +38,7 @@ class Team extends React.Component {
             {
                 id: '4',
                 name_eng: 'TeamFomin',
-                src: 'team_images/default.png',
+                src: 'team_images/slava.png',
                 alt: 'Fomin',
                 gitHub: 'https://github.com/slava-ff',
             },
@@ -59,7 +59,7 @@ class Team extends React.Component {
             {
                 id: '7',
                 name_eng: 'TeamShlembayev',
-                src: 'team_images/default.png',
+                src: 'team_images/kemal.png',
                 alt: 'Shlembayev',
                 gitHub: 'https://github.com/slider7',
             },
