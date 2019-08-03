@@ -58,3 +58,5 @@ Slider7
 | July 30    | July 30  | 1h         | analyze and search data about photographers        |
 | July 31    | July 31  | 2h         | analyze and implement SearchPage component         |
 | August 1   | August 2 | 2h         | find, edit and prepare info about photographers 2&3|
+| August 2   | August 2 | 1h         | add search by place to SearchPage component				|
+| August 3   | August 3 | 2h         | find, edit and prepare info about photographers 1-5|

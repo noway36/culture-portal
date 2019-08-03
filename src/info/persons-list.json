@@ -1,38 +1,58 @@
-{ "data" :
-    [
+{
+    "data": [
         {
             "link": "/photographers/anempodistov",
             "fioRus": "Анемподистов Михаил Владимирович",
-            "fioBel": "Анемподистов Михаил Владимирович",
-            "fioEng": "Anempodistov Mikhail Vladimirovich"
+            "fioBel": "Анемпадыстаў Міхаіл Уладзіміравіч",
+            "fioEng": "Anempodistov Mikhail Vladimirovich",
+            "yearOfBirth": "1964",
+            "birthplaceRus": "Минск",
+            "birthplaceEng": "Minsk",
+            "birthplaceBel": "Мінск"
         },
 
         {
             "link": "/photographers/parfenok",
             "fioRus": "Парфенок Владимир Петрович",
-            "fioBel": "Парфенок Владимир Петрович",
-            "fioEng": "Parfenok Vladimir Petrovich"
+            "fioBel": "Парфенак Уладзімір Пятровіч",
+            "fioEng": "Parfenok Vladimir Petrovich",
+            "yearOfBirth": "1958",
+            "birthplaceRus": "Гродненская область",
+            "birthplaceEng": "Grodno region",
+            "birthplaceBel": "Гродзенская вобласць"
         },
 
         {
             "link": "/photographers/savchenko",
             "fioRus": "Савченко Игорь Викторович",
-            "fioBel": "Савченко Игорь Викторович",
-            "fioEng": "Savchenko Igor Viktorovich"
+            "fioBel": "Саўчанка Ігар Віктаравіч",
+            "fioEng": "Savchenko Igor Viktorovich",
+            "yearOfBirth": "1962",
+            "birthplaceRus": "Минск",
+            "birthplaceEng": "Minsk",
+            "birthplaceBel": "Мінск"
         },
 
         {
             "link": "/photographers/kachan",
             "fioRus": "Качан Вадим Аркадьевич",
-            "fioBel": "Качан Вадим Аркадьевич",
-            "fioEng": "Kachan Vadim Arkadyevich"
+            "fioBel": "Качан Вадзім Аркадзьевіч",
+            "fioEng": "Kachan Vadim Arkadyevich",
+            "yearOfBirth": "1958",
+            "birthplaceRus": "Брестская область",
+            "birthplaceEng": "Brest region",
+            "birthplaceBel": "Брэсцкая вобласць"
         },
 
         {
             "link": "/photographers/klinov",
             "fioRus": "Клинов Артур Александрович",
-            "fioBel": "Клинов Артур Александрович",
-            "fioEng": "Klinov Artur Aleksandrovich"
+            "fioBel": "Клінаў Артур Аляксандравіч",
+            "fioEng": "Klinov Artur Aleksandrovich",
+            "yearOfBirth": "1965",
+            "birthplaceRus": "Минск",
+            "birthplaceEng": "Minsk",
+            "birthplaceBel": "Мінск"
         }
     ]
 }
