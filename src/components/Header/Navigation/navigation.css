@@ -8,6 +8,7 @@
 
 .navigation-link {
     margin-right: 60px;
+    width: 120px;
 }
 
 .navigation-link:last-child {
@@ -32,4 +33,14 @@
 
 .navigation-link:active {
     transform: translateY(1px);
+}
+
+@media(max-width: 500px) {
+    .navigation-link {
+        margin-right: 30px;
+    }
+
+    .navigation-link:last-child {
+        margin-left: 30px;
+    }
 }
