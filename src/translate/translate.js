@@ -31,11 +31,13 @@ export default function Translate() {
 
     return (
         <div className="language-select">
-            <FormControl className={classes.formControl}
+            <FormControl
+                className={classes.formControl}
                 style={{
                     display: 'flex',
-                    alignItems: 'center'
-                }}>
+                    alignItems: 'center',
+                }}
+            >
                 <Select
                     value={currentLanguage}
                     onChange={handleChange}
@@ -44,9 +46,27 @@ export default function Translate() {
                         id: 'controlled-open-select',
                     }}
                 >
-                    <MenuItem value="ru"><img class='language-select-image' src='/language-icons/russia.png' alt='ru' /></MenuItem>
-                    <MenuItem value="be"><img class='language-select-image' src='/language-icons/bel.png' alt='ru' /></MenuItem>
-                    <MenuItem value="en"><img class='language-select-image' src='/language-icons/eng.png' alt='ru' /></MenuItem>
+                    <MenuItem value="ru">
+                        <img
+                            className="language-select-image"
+                            src="/language-icons/russia.png"
+                            alt="ru"
+                        />
+                    </MenuItem>
+                    <MenuItem value="be">
+                        <img
+                            className="language-select-image"
+                            src="/language-icons/bel.png"
+                            alt="ru"
+                        />
+                    </MenuItem>
+                    <MenuItem value="en">
+                        <img
+                            className="language-select-image"
+                            src="/language-icons/eng.png"
+                            alt="ru"
+                        />
+                    </MenuItem>
                 </Select>
             </FormControl>
         </div>

@@ -7,12 +7,8 @@
     height: 40px;
 }
 
-.language-select:first-child {
-    margin: auto;
-}
-
 .language-select-image {
     width: 15px;
     height: 15px;
-    margin: auto;
+    padding: 0 5px;
 }
