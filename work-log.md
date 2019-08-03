@@ -30,6 +30,9 @@ esoshyki
 | Start time | End time | time spent | feature                             |
 | ---------- | -------- | ---------- | ----------------------------------- |
 | July 28    | July 29  | 5 h        | Team component with adaptive styles |
+| July 29    | July 29  | 1 h        | Bug fixing and refactoring          |
+| July 04    | July 04  | 2 h        | Work with adaptive styles           |
+| July 04    | July 05  | 2.5 h      | Work with visual conception of site |
 
 slava-ff
 

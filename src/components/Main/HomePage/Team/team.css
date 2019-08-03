@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #003100;
 }
 
 .teamCard_container {
@@ -26,8 +27,8 @@
     width: 110px;
     height: 250px;
     padding: 5px;
-    border: 1px solid black;
-    background: #e0d8d8;
+    border: 1px solid 003100;
+    background: #d0e1ca;
 }
 
 .teamCard_photo {
@@ -60,6 +61,7 @@
     top: 10px;
     font-size: 36px;
     text-align: center;
+    color: #003100;
 }
 
 .teamCard_name {
@@ -67,7 +69,7 @@
 }
 
 .teamCard_github i {
-    color: blueviolet;
+    color: #003100;
 }
 
 .teamCard_github i:hover {
