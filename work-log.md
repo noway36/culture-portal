@@ -13,11 +13,12 @@ noway36
 
 ilyaivanchikov
 
-| Start time | End time | time spent | feature                  |
-| ---------- | -------- | ---------- | ------------------------ |
-| July 28    | July 29  | 2h         | add googleMap components |
-| August 1   | August 1 | 1h         | add loader for map       |
-| August 1   | August 2 | 5h         | add galllery components  |
+| Start time | End time | time spent | feature                        |
+| ---------- | -------- | ---------- | -------------------------------|
+| July 28    | July 29  | 2h         | add googleMap components       |
+| August 1   | August 1 | 1h         | add loader for map             |
+| August 1   | August 1 | 2h         | found and i gallery library    |
+| August 1   | August 2 | 5h         | add galllery components        |
 
 esoshyki
 

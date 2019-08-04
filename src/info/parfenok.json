@@ -24,5 +24,46 @@
         "/gallery/parfenok/1.jpg",
         "/gallery/parfenok/2.jpg",
         "/gallery/parfenok/3.jpg"
-    ]
+    ],
+    "masterWorks": [{
+        "id": 1,
+        "composition": "Дом кино",
+        "dateOfCreation": "1998"
+    },
+    {
+        "id": 2,
+        "composition": "Новая советская фотография",
+        "dateOfCreation": "1998"
+    },
+    {
+        "id": 3,
+        "composition": "Белорусский фотоавангард",
+        "dateOfCreation": "1990"
+    },
+    {
+        "id": 4,
+        "composition": "Фотографы из Минска",
+        "dateOfCreation": "1990"
+    },
+    {
+        "id": 5,
+        "composition": "Эрозия",
+        "dateOfCreation": "1990"
+    },
+    {
+        "id": 6,
+        "composition": "Современная фотография из СССР",
+        "dateOfCreation": "1990"
+    },
+    {
+        "id": 7,
+        "composition": "Новая волна",
+        "dateOfCreation": "1991"
+    },
+    {
+        "id": 8,
+        "composition": "В тени Нагасаки",
+        "dateOfCreation": "1991"
+    }
+]
 }

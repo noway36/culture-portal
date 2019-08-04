@@ -20,6 +20,7 @@ const Parfenok = () => {
     const { timeLineDates } = photographerInfo;
     const { timeLineInfos } = photographerInfo;
     const { gallery } = photographerInfo;
+    const { masterWorks } = photographerInfo;
 
     return (
         <Layout>
@@ -35,6 +36,7 @@ const Parfenok = () => {
                 timeLineDates={timeLineDates}
                 timeLineInfos={timeLineInfos}
                 gallery={gallery}
+                masterWorks={masterWorks}
             />
         </Layout>
     );
