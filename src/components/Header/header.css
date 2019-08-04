@@ -3,7 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 37px;
+    margin: 37px auto 0;
     background: #003100;
     color: #ecf5ed;
+    max-width: 940px;
+    padding: 0 20px;
+    border-radius: 10px;
 }

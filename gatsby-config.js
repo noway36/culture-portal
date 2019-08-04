@@ -4,6 +4,7 @@ module.exports = {
         description: ``,
         author: `rs_team`,
     },
+    pathPrefix: '/culture-portal',
     plugins: [
         `gatsby-plugin-react-helmet`,
         {
