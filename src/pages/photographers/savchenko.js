@@ -20,6 +20,7 @@ const Savchenko = () => {
     const { timeLineDates } = photographerInfo;
     const { timeLineInfos } = photographerInfo;
     const { gallery } = photographerInfo;
+    const { masterWorks } = photographerInfo;
 
     return (
         <Layout>
@@ -35,6 +36,7 @@ const Savchenko = () => {
                 timeLineDates={timeLineDates}
                 timeLineInfos={timeLineInfos}
                 gallery={gallery}
+                masterWorks={masterWorks}
             />
         </Layout>
     );

@@ -33,5 +33,46 @@
         "/gallery/savchenko/2.jpg",
         "/gallery/savchenko/3.jpg",
         "/gallery/savchenko/4.jpg"
-    ]
+    ],
+    "masterWorks": [{
+        "id": 1,
+        "composition": "Galleri Index",
+        "dateOfCreation": "1991"
+    },
+    {
+        "id": 2,
+        "composition": "Fotografijos Galerijos",
+        "dateOfCreation": "1994"
+    },
+    {
+        "id": 3,
+        "composition": "Valokuvagalleria Hippolyte",
+        "dateOfCreation": "1995"
+    },
+    {
+        "id": 4,
+        "composition": "Northern Photographic Center",
+        "dateOfCreation": "1995"
+    },
+    {
+        "id": 5,
+        "composition": "Wir sprechen Deutsch",
+        "dateOfCreation": "1999"
+    },
+    {
+        "id": 6,
+        "composition": "Something in Hands",
+        "dateOfCreation": "2000"
+    },
+    {
+        "id": 7,
+        "composition": "Quiet Light",
+        "dateOfCreation": "2000"
+    },
+    {
+        "id": 8,
+        "composition": "The Sky Is Clear over All Germany",
+        "dateOfCreation": "2001"
+    }
+]
 }
