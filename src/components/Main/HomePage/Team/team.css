@@ -79,6 +79,17 @@
     color: rgb(72, 72, 216);
 }
 
+.teamCard_workDone {
+    position: absolute;
+    max-width: 300px;
+    padding: 20px;
+    text-align: justify;
+    background: #d0e1ca;
+    border: 1px solid  #003100;
+    border-radius: 10px;
+    z-index: 1;
+}
+
 @media (max-width: 850px) {
     .teamCard {
         width: 250px;
