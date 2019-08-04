@@ -18,14 +18,14 @@
     border-radius: 10px;
     padding: 10px;
     font-size: 18px;
-    color: #000;
-    background: rgb(223, 223, 240);
+    color: #ecf5ed;
+    background: #5a9d2d;
     width: 80%;
     text-align: start;
 }
 
 .photographer-link:hover a {
-    background: rgb(164, 164, 233);
+    background: #003100;
     color: #fff;
 }
 

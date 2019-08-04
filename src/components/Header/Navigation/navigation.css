@@ -1,5 +1,9 @@
 .navigation-container {
-    margin-top: 30px;
+    margin: 15px 0;
+}
+
+.head-logo {
+    margin-top: 10px;
 }
 
 .navigation {
@@ -8,7 +12,7 @@
 
 .navigation-link {
     margin-right: 60px;
-    width: 120px;
+    width: 200px;
 }
 
 .navigation-link:last-child {
@@ -24,10 +28,15 @@
     font-size: 18px;
     text-align: center;
     color: #000;
+
+}
+
+.navigation-link > a button {
+    background: #5a9d2d;
 }
 
 .navigation-link:hover a {
-    background: rgb(164, 164, 233);
+    background: #6cc333;
     color: #fff;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
@@ -39,6 +48,8 @@
 @media(max-width: 500px) {
     .navigation-link {
         margin-right: 30px;
+        width: 120px;
+        margin: 0;
     }
 
     .navigation-link:last-child {

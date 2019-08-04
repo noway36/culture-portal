@@ -16,7 +16,7 @@ html {
     overflow-x: hidden;
     width: 100%;
     font-size: 14px;
-    background: #fff;
+    background: #ecf5ed ;
     font-family: 'Lato', sans-serif;
 }
 
@@ -50,4 +50,5 @@ input:focus {
     max-width: 960px;
     margin: 30px auto 0px auto;
     padding: 20px;
+    background: #aec5aa;
 }
