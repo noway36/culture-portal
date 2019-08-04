@@ -1,3 +1,19 @@
+- [x] **10** Main page + page with a list of authors + author's page (only html);
+- [x] **10** Page with list of authors contains search widget;
+- [x] **20** Portal has two languages;
+- [x] **10** Author's page contains timeline;
+- [x] **10** Author's page contains video overlay;
+- [x] **20** Author's page contains photo gallery;
+- [x] **10** Author's page contains map (geowidget);
+- [x] **40** Project is made using react (max 40 - if all widgets are done in React);
+- [x] **20** Design;
+- [x] **20** material-ui / bootstrap is used
+- [x] **10** Confidence of the project presentation;
+- [x] **30** Project is made using gatsbyjs;
+- [x] **10** Portal has third language
+
+Total: 220.
+
 noway36
 
 | Start time | End time | time spent | feature                                        |
