@@ -24,7 +24,7 @@ class Team extends React.Component {
             {
                 id: '2',
                 name_eng: 'TeamDren',
-                src: 'team_images/default.png',
+                src: 'team_images/dren.png',
                 alt: 'Dren',
                 gitHub: 'https://github.com/noway36',
             },
@@ -45,14 +45,14 @@ class Team extends React.Component {
             {
                 id: '5',
                 name_eng: 'TeamTsykala',
-                src: 'team_images/default.png',
+                src: 'team_images/tsyk.png',
                 alt: 'Tsykala',
                 gitHub: 'https://github.com/ihartsykala',
             },
             {
                 id: '6',
                 name_eng: 'TeamTalaspaev',
-                src: 'team_images/default.png',
+                src: 'team_images/muham.png',
                 alt: 'Talaspaev',
                 gitHub: 'https://github.com/talaspaev',
             },
