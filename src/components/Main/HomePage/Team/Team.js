@@ -51,13 +51,6 @@ class Team extends React.Component {
             },
             {
                 id: '6',
-                name_eng: 'TeamTalaspaev',
-                src: 'team_images/muham.png',
-                alt: 'Talaspaev',
-                gitHub: 'https://github.com/talaspaev',
-            },
-            {
-                id: '7',
                 name_eng: 'TeamShlembayev',
                 src: 'team_images/kemal.png',
                 alt: 'Shlembayev',
