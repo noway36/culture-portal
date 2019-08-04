@@ -14,17 +14,21 @@ class MasterWorks extends React.Component {
         return this.masterWorks ? (
             <div className="master-works-container">
                 <p className="master-works-text">
-                    <Trans>Шедевры</Trans>
+                    <Trans>Masterworks</Trans>
                 </p>
                 <table className="table_blur">
                     <thead>
                         <tr>
-                            <th>Выставки</th>
-                            <th>Дата создания</th>
+                            <th>
+                                <Trans>Exhibitions</Trans>
+                            </th>
+                            <th>
+                                <Trans>CreationDay</Trans>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
-                        {this.masterWorks.map((item) => (
+                        {this.masterWorks.map(item => (
                             <tr key={item.id}>
                                 <td>{item.composition}</td>
                                 <td>{item.dateOfCreation}</td>
@@ -33,7 +37,7 @@ class MasterWorks extends React.Component {
                     </tbody>
                 </table>
             </div>
-        ) : null ;
+        ) : null;
     }
 }
 MasterWorks.propTypes = {
@@ -41,7 +45,7 @@ MasterWorks.propTypes = {
         id: PropTypes.number,
         composition: PropTypes.string,
         dateOfCreation: PropTypes.string,
-    }).isRequired
+    }).isRequired,
 };
 
 export default withTranslation()(MasterWorks);

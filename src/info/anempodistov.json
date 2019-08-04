@@ -28,50 +28,51 @@
         "/gallery/anempodistov/4.jpg",
         "/gallery/anempodistov/5.jpg"
     ],
-    "masterWorks": [{
-        "id": 1,
-        "composition": "Pilango Gallery",
-        "dateOfCreation": "1993"
-    },
-    {
-        "id": 2,
-        "composition": "Teatr NN",
-        "dateOfCreation": "1994"
-    },
-    {
-        "id": 3,
-        "composition": "Pilango Gallery",
-        "dateOfCreation": "1994"
-    },
-    {
-        "id": 4,
-        "composition": "Ratz Fatz Gallery",
-        "dateOfCreation": "1994"
-    },
-    {
-        "id": 5,
-        "composition": "Horshol",
-        "dateOfCreation": "1995"
-    },
-    {
-        "id": 6,
-        "composition": "Dzyga",
-        "dateOfCreation": "2010"
-    },
-    {
-        "id": 7,
-        "composition": "Галерея Белорусского союза дизайнеров",
-        "dateOfCreation": "2011"
-    },
-    {
-        "id": 8,
-        "composition": "Under Ground",
-        "dateOfCreation": "2012"
-    },
-    {
-        "id": 9,
-        "composition": "Белорусский плакат",
-        "dateOfCreation": "2011"
-    }
-]
+    "masterWorks": [
+        {
+            "id": 1,
+            "composition": "Pilango Gallery",
+            "dateOfCreation": "1993"
+        },
+        {
+            "id": 2,
+            "composition": "Teatr NN",
+            "dateOfCreation": "1994"
+        },
+        {
+            "id": 3,
+            "composition": "Pilango Gallery",
+            "dateOfCreation": "1994"
+        },
+        {
+            "id": 4,
+            "composition": "Ratz Fatz Gallery",
+            "dateOfCreation": "1994"
+        },
+        {
+            "id": 5,
+            "composition": "Horshol",
+            "dateOfCreation": "1995"
+        },
+        {
+            "id": 6,
+            "composition": "Dzyga",
+            "dateOfCreation": "2010"
+        },
+        {
+            "id": 7,
+            "composition": "Галерея Белорусского союза дизайнеров",
+            "dateOfCreation": "2011"
+        },
+        {
+            "id": 8,
+            "composition": "Under Ground",
+            "dateOfCreation": "2012"
+        },
+        {
+            "id": 9,
+            "composition": "Белорусский плакат",
+            "dateOfCreation": "2011"
+        }
+    ]
 }
