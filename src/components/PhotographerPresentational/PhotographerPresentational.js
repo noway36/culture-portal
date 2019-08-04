@@ -29,7 +29,7 @@ const PhotographerPresentational = props => {
                 timeLineDates={timeLineDates}
                 timeLineInfos={timeLineInfos}
             />
-            <MasterWorks masterWorks={masterWorks}/>
+            <MasterWorks masterWorks={masterWorks} />
             <VideoButton videoSrc={videoSrc} />
             <GoogleMap googleMap={googleMap} googleLife={googleLife} />
             <Gallery gallery={gallery} />
@@ -48,11 +48,7 @@ PhotographerPresentational.propTypes = {
     timeLineDates: PropTypes.arrayOf(PropTypes.string).isRequired,
     timeLineInfos: PropTypes.arrayOf(PropTypes.string).isRequired,
     gallery: PropTypes.arrayOf(PropTypes.string).isRequired,
-    masterWorks: PropTypes.shape({
-        id: PropTypes.number,
-        composition: PropTypes.string,
-        dateOfCreation: PropTypes.string,
-    }).isRequired
+    masterWorks: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default PhotographerPresentational;

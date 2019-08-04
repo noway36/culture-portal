@@ -41,11 +41,7 @@ class MasterWorks extends React.Component {
     }
 }
 MasterWorks.propTypes = {
-    masterWorks: PropTypes.shape({
-        id: PropTypes.number,
-        composition: PropTypes.string,
-        dateOfCreation: PropTypes.string,
-    }).isRequired,
+    masterWorks: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default withTranslation()(MasterWorks);
