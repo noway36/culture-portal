@@ -16,7 +16,7 @@ html {
     overflow-x: hidden;
     width: 100%;
     font-size: 14px;
-    background: #ecf5ed ;
+    background: #ecf5ed;
     font-family: 'Lato', sans-serif;
 }
 
@@ -48,7 +48,9 @@ input:focus {
     justify-content: center;
     align-items: center;
     max-width: 960px;
-    margin: 30px auto 0px auto;
+    margin: 37px auto 0px auto;
     padding: 20px;
+    padding-right: 35px;
     background: #aec5aa;
+    border-radius: 10px;
 }

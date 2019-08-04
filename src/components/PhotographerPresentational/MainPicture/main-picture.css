@@ -1,4 +1,5 @@
 .picture-container {
+    margin-top: 17px;
     display: flex;
     justify-content: center;
 }
