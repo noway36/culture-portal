@@ -57,14 +57,14 @@ export default function Translate() {
                         <img
                             className="language-select-image"
                             src="/language-icons/bel.png"
-                            alt="ru"
+                            alt="be"
                         />
                     </MenuItem>
                     <MenuItem value="en">
                         <img
                             className="language-select-image"
                             src="/language-icons/eng.png"
-                            alt="ru"
+                            alt="en"
                         />
                     </MenuItem>
                 </Select>
