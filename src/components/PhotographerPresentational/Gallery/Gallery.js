@@ -31,7 +31,10 @@ class Gallery extends React.Component {
                 >
                     {this.gallery.map((item, index) => (
                         <div key={this.gallery[index]}>
-                            <img src={item} alt={index} />
+                            <img
+                                src={require(`../../../images${item}`)}
+                                alt={index}
+                            />
                         </div>
                     ))}
                 </Carousel>

@@ -49,21 +49,21 @@ export default function Translate() {
                     <MenuItem value="ru">
                         <img
                             className="language-select-image"
-                            src="/language-icons/russia.png"
+                            src={require('../images/language_icons/russia.png')}
                             alt="ru"
                         />
                     </MenuItem>
                     <MenuItem value="be">
                         <img
                             className="language-select-image"
-                            src="/language-icons/bel.png"
+                            src={require('../images/language_icons/bel.png')}
                             alt="be"
                         />
                     </MenuItem>
                     <MenuItem value="en">
                         <img
                             className="language-select-image"
-                            src="/language-icons/eng.png"
+                            src={require('../images/language_icons/eng.png')}
                             alt="en"
                         />
                     </MenuItem>

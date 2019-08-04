@@ -24,6 +24,8 @@ module.exports = {
         'jsx-a11y/click-events-have-key-events': 'off',
         'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/no-noninteractive-tabindex': 'off',
+        'import/no-dynamic-require': 'off',
+        'global-require': 'off',
         'wrap-iife': [2, 'any'],
         'no-use-before-define': ['error', { functions: false, classes: true }],
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
